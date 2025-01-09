@@ -213,3 +213,35 @@
 .group96 {
     margin-top: 50px;
 }
+
+/* Holiday section styles  */
+.sale50{
+    width: 1068px;
+    height: 220px;
+    margin: 100px auto;
+    justify-content: center;
+    text-align: center;
+}
+.sale-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    padding-bottom: 6px;
+}
+
+.holidays{
+    font-size: 72px;
+    color: #070211;
+    margin-bottom: 6px;
+    
+}
+.h-red{
+    font-size: 72px;
+    color: #FF0000;
+}
+.s-description{
+    height: 100px;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 52px;
+}
