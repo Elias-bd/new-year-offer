@@ -44,34 +44,82 @@
 
 /* secondary banner styles  */
 
-.sec-banner{
+.sec-banner {
     width: 800px;
     margin: 120px auto;
 }
 
 
-.sec-banner-text{
+.sec-banner-text {
     text-align: center;
 
-    
- 
+
+
 }
-.sec-banner-title{
+
+.sec-banner-title {
     font-size: 88px;
     font-weight: bold;
     color: #FF0000;
     margin-bottom: 10px;
     line-height: 1.2;
 }
-.sec-banner-subtitle{
+
+.sec-banner-subtitle {
     font-size: 24px;
     color: #FF0000;
     font-weight: 500;
     line-height: 0.2;
 }
-.sec-banner-description{
+
+.sec-banner-description {
     font-size: 48px;
     font-weight: bold;
     color: #070211;
     line-height: 0.6px;
+}
+
+/* welcome section styles  */
+
+.welcome {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.37)), url(../images/Vectorrr.png);
+    border-radius: 16px;
+}
+
+.welcome-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text {
+    width: 650px;
+}
+
+.welcome-title {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.welcome-subtitle {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.wel-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 48px;
+}
+
+.welcome-image {
+    width: 320px;
+    height: 464px;
+    margin-top: 70px;
 }
